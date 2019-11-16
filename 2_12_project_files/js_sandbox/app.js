@@ -141,3 +141,14 @@ console.log(`${name} is a child `)
 }else{
   console.log(`${name} is an adult`);
 }
+
+if (age < 16 || age > 65){
+  console.log(`${name} can not run in the race`);
+
+}else{
+  console.log(`${name} is registered for the race`)
+}
+
+//Ternary operator 
+
+console.log(id === 100 ? 'correct' : 'incorrect');
