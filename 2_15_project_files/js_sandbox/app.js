@@ -111,29 +111,32 @@
 
 //Looping through Arrays 
 
-const cars = ['ford', 'chevy', 'Honda','Toyota'];
+ const cars = ['ford', 'chevy', 'Honda','Toyota'];
 // for (let i = 0; i < cars.length; i++){
 //   console.log(cars[i]);
 // }
 
 //forEach Array loop 
 //takes in a callback function , this is how you should loop through an array 
-// cars.forEach(function(car){
-// console.log(car);
-// });
+ cars.forEach(function(car, index, array){
+ console.log(`${index}: ${car}`);
+ console.log(array);
+ });
 
 //MAP is used to create a different array 
 
-const users =[
-  {id:1, name:'Ramona'},
-  {id:2, name:'David'},
-  {id:3, name:'Shae'},
-  {id:4, name:'John'}
+// const users =[
+//   {id:1, name:'Ramona'},
+//   {id:2, name:'David'},
+//   {id:3, name:'Shae'},
+//   {id:4, name:'John'}
 
-];
-const ids = users.map(function(users){
-return users.name
-});
-console.log(name);
+// ];
+// const ids = users.map(function(users){
+// return users.name
+// });
+// console.log(name);
+
+
 
 
