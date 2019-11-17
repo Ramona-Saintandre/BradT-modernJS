@@ -41,11 +41,12 @@
 
 //function expressions is setting a function as a variable assignment
 
-const square = function(x = 3){//you can set a default for the function, for when you call it 
-return x*x;
-};
-console.log(square(4));//not sure why this is not working right I keep getting 16 instead of 12 
+// const square = function(x = 3){//you can set a default for the function, for when you call it 
+// return x*x;
+// };
+// console.log(square(4));//not sure why this is not working right I keep getting 16 instead of 12 
 
+// see image attached to this lesson 
 
 
 
