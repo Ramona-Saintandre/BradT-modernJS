@@ -111,17 +111,17 @@
 
 //Looping through Arrays 
 
- const cars = ['ford', 'chevy', 'Honda','Toyota'];
-// for (let i = 0; i < cars.length; i++){
-//   console.log(cars[i]);
-// }
+//  const cars = ['ford', 'chevy', 'Honda','Toyota'];
+// // for (let i = 0; i < cars.length; i++){
+// //   console.log(cars[i]);
+// // }
 
-//forEach Array loop 
-//takes in a callback function , this is how you should loop through an array 
- cars.forEach(function(car, index, array){
- console.log(`${index}: ${car}`);
- console.log(array);
- });
+// //forEach Array loop 
+// //takes in a callback function , this is how you should loop through an array 
+//  cars.forEach(function(car, index, array){
+//  console.log(`${index}: ${car}`);
+//  console.log(array);
+//  });
 
 //MAP is used to create a different array 
 
@@ -136,6 +136,17 @@
 // return users.name
 // });
 // console.log(name);
+
+//forIn loop 
+
+const user = {
+  firstName: 'John',//firsName = Key , and 'John' = Value making up the keyValue pair 
+  lastName: 'Doe',
+  age:40
+}
+for (let x in user){//x gives us the key . inside of an there is a key and a value, also know as key value pairs. 
+  console.log(`${x}: ${user[x]}`);//this is how to get both the key and the value 
+}
 
 
 
