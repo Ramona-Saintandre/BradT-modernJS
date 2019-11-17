@@ -48,5 +48,20 @@
 
 // see image attached to this lesson 
 
+//IIFE - immidiately invokable function expression
+//function that you declare and run at the same time 
+//need it to be an expression, you do this by putting it inside of ()
+
+// (function(){
+//     console.log('IIFE Ran..');
+// })();
+
+// // They can take in parmeters 
+// (function(name){
+//     console.log('Hello ' + name); //Need to make sure to add a space so that way the words don't run together 
+// })('Ramona');
+
+
+
 
 
