@@ -61,7 +61,23 @@
 //     console.log('Hello ' + name); //Need to make sure to add a space so that way the words don't run together 
 // })('Ramona');
 
+//Property methods is when a function is put inside of an object 
 
+const todo = {
+    add: function(){
+        console.log('add todo ..');
+    },
+    edit: function(id) {
+        console.log(`edit todo ${id}`);
+    }
+}
+todo.delete = function(){
+console.log('Delete todo..')
 
+}
+
+todo.add();
+todo.edit(22);
+todo.delete();
 
 
