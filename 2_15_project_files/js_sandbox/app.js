@@ -98,4 +98,12 @@
 // i++;
 // }
 
-//doWhileLoop
+//doWhileLoop - this will always run at least once no matter what . So if we were to change the value of the variable to more than the condition it would still run 
+
+// let i = 0;
+// do {
+//   console.log('Number'+ i);
+//   i++;
+// }
+
+// while (i < 10);
