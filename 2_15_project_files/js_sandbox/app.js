@@ -89,3 +89,13 @@
 
 // console.log('number '+ i);
 // }
+
+//While Loop - should be used when the number of iterations is unclear , if you know how many iterations then use a forLoop 
+
+// let i = 0; //  With whileLoops you set the variable outside the loop 
+// while (i < 10){ //only the condition goes in here unlike the for loop
+// console.log('Number' + i);
+// i++;
+// }
+
+//doWhileLoop
