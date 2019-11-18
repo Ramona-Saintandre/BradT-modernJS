@@ -27,3 +27,30 @@
 // console.log('Global Scope: ', a, b, c);
 
 
+//global scope 
+
+var a = 'variglo';
+let b  = 'lettyglo';
+const c = 'constglo';
+
+// function funScope () {
+//     var a = 'varifun';
+//     let b = 'lettyfun';
+//     const c = 'constfun';
+//     console.log('function Scope: ','varifun','lettyfun','constfun');
+// }
+// funScope();
+
+//block level scope 
+// if (true){
+//     var a = 'variblck';
+//     let b = 'lettyblck';
+//     const c = 'constblck';
+//     console.log('IF Block Scope: ','variblck','lettyblck','constblck')
+// }
+
+for(var a = 0; a <10; a++){
+    console.log(`Loop: ${a}`);
+}
+console.log('Global:','Variglo','lettyglo','constglo')
+
